@@ -38,7 +38,7 @@ after_script:
 
 branches:
   only:
-    - source
+    - master
 
 env:
  global:
