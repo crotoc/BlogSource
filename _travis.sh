@@ -33,6 +33,8 @@ function default(){
   #cp ../master.travis.yml .travis.yml
 
 cat <<EOF >> README.md
+[![Build Status](https://travis-ci.org/crotoc/BlogSource.svg?branch=master)](https://travis-ci.org/crotoc/BlogSource)
+
 部署状态 | 集成结果 | 参考值
 ---|---|---
 完成时间 | $time | yyyy-mm-dd hh:mm:ss
@@ -44,7 +46,6 @@ cat <<EOF >> README.md
 提交信息 | $TRAVIS_COMMIT_MESSAGE |
 Job ID   | $TRAVIS_JOB_ID |
 Job NUM  | $TRAVIS_JOB_NUMBER |
-[![Build Status](https://travis-ci.org/crotoc/BlogSource.svg?branch=master)](https://travis-ci.org/crotoc/BlogSource)
 EOF
 
   git init
