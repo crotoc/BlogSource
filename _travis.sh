@@ -44,7 +44,7 @@ cat <<EOF >> README.md
 提交信息 | $TRAVIS_COMMIT_MESSAGE |
 Job ID   | $TRAVIS_JOB_ID |
 Job NUM  | $TRAVIS_JOB_NUMBER |
-[![Build Status](https://travis-ci.org/crotoc/crotoc.github.io.svg?branch=master)](https://travis-ci.org/crotoc/crotoc.github.io)
+[![Build Status](https://travis-ci.org/crotoc/BlogSource.svg?branch=master)](https://travis-ci.org/crotoc/BlogSource)
 EOF
 
   git init
