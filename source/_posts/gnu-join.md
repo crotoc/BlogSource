@@ -1,7 +1,7 @@
 ---
 title: Gnu join - join two files by specified field
 date: 2018-08-10 12:36:45
-tags:
+tags: [linux, GNU]
 ---
 
 # How to join multiple files using GNU join
