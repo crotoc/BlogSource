@@ -257,5 +257,5 @@
 !||apm.music.163.com
 !||lbs.netease.im
 *.netease.im
-!||nos.netease.com
+||nos.netease.com
 ||dnkeeper.hicloud.com
