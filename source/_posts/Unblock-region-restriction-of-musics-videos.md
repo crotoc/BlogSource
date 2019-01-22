@@ -6,4 +6,5 @@ tags:
 
 I try to capture the link for qq video, music and netease music. The file is at below:
 
-{% asset_path "unblock.rules.txt" %}
+{% asset_link "unblock.rules.txt" "Unblock rules" %}
+{% asset_img "unblock.rules.txt" "Unblock rules" %}
