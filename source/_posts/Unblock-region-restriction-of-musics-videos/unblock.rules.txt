@@ -259,4 +259,4 @@
 *.netease.im
 ||nos.netease.com
 ||dnkeeper.hicloud.com
-||y.qq.com
+.y.qq.com
