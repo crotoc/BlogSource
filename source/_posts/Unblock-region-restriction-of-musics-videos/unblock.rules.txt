@@ -238,7 +238,5 @@ nos.netease.com
 ! Huawei Music
 dnkeeper.hicloud.com
 ! QQ music
-.y.qq.com
-mazu.3g.qq.com
-y.qq.com
-music.qq.com
+wnsmusic.qq.com
+wns.y.qq.com
