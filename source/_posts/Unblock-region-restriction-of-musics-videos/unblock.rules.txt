@@ -238,5 +238,20 @@ nos.netease.com
 ! Huawei Music
 dnkeeper.hicloud.com
 ! QQ music
+wspeed.qq.com
 wnsmusic.qq.com
 wns.y.qq.com
+c.y.qq.com
+stat.y.qq.com
+u.y.qq.com
+ten.sngapm.qq.com
+dldir1.qq.com
+conf.voice.qcloud.com
+mazu.3g.qq.com
+log.tbs.qq.com
+shu.y.qq.com
+szu.y.qq.com
+y.qq.com
+
+
+
