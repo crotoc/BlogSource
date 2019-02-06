@@ -232,31 +232,13 @@
 ||video.sina.com.cn^
 ||video.tudou.com^
 !||vi.l.qq.com^
-||vip.sports.cntv.cn^
-||v.pps.tv^
-||v.pptv.com^
-||vxml.56.com^
-||v.youku.com^
-||web-play.pplive.cn^
-||web-play.pptv.com^
-||wtv.v.iask.com^
-||www.bilibili.com^
-||www.iqiyi.com^
-||www.kugou.com^
-||www.kuwo.cn^
-||www.qie.tv^
-||www.soku.com^
-||www.tudou.com^
-||www.xiami.com^
-||www.yinyuetai.com^
-||www.youku.com^
-!||zb.s.qq.com^
-!||mr.da.netease.com^
-!||nstool.netease.com
-!||mam.netease.com
-!||apm.music.163.com
-!||lbs.netease.im
-*.netease.im
-||nos.netease.com
-||dnkeeper.hicloud.com
+!.netease.im
+! netease music
+nos.netease.com
+! Huawei Music
+dnkeeper.hicloud.com
+! QQ music
 .y.qq.com
+mazu.3g.qq.com
+y.qq.com
+music.qq.com
