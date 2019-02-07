@@ -6,6 +6,8 @@ dnkeeper.hicloud.com
 ! QQ music: Look at webforms at wspeed.qq.com
 !182.254.116.117
 203.205.128.117
+y.qq.com
+wnsmusic.qq.com
 ! QQ shipin
 vv.video.qq.com
 
