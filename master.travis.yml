@@ -17,8 +17,11 @@ notifications:
 # S: Build Lifecycle
 install:
     #  - npm install
-#  - gem install travis
-#  - travis login --pro --github-token ${GH_TOKEN}
+    #  - npm install --save hexo-algolia
+    #  - gem install travis
+    #  - travis login --pro --github-token ${GH_TOKEN}
+    #  - export HEXO_ALGOLIA_INDEXING_KEY=f20c1ed4145d79437191e2b985df0f41
+    #  - hexo algolia
 
 before_script:
     #  - export TZ='Asia/Shanghai'
