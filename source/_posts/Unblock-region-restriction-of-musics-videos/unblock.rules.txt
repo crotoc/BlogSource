@@ -12,4 +12,4 @@ wns.y.qq.com
 ! QQ shipin
 vv.video.qq.com
 vv.play.aiseet.atianqi.com
-tv.aiseet.atianqi.com
+! tv.aiseet.atianqi.com
