@@ -8,4 +8,4 @@ I try to capture the link for qq video, music and netease music. The file is at 
 
 {% asset_link "unblock.rules.txt" "Unblock rules" %}
 {% asset_link "unblock.rules.dnsmasq.conf" "Unblock rules for dnsmasq on openWRT router" %}
-
+{% asset_link "unblock.rules.v2ray.dnsmasq.conf" "Unblock rules for dnsmasq on openWRT router" %}
