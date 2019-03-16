@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.7.1"
+    "version": "3.8.0"
   },
   "dependencies": {
     "hexo": "^3.7.1",
@@ -17,6 +17,12 @@
     "hexo-renderer-less": "^0.2.0",
     "hexo-renderer-marked": "^0.3.0",
     "hexo-renderer-stylus": "^0.3.1",
-    "hexo-server": "^0.2.0"
+    "hexo-server": "^0.2.0",
+    "@fancyapps/fancybox": "3.2.5",
+    "@fortawesome/fontawesome-free": "5.1.0",
+    "hexo-util": "0.6.3",
+    "jquery": "3.3.1",
+    "jsdom": "11.6.2",
+    "strip-indent": "2.0.0"
   }
 }
