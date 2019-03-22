@@ -1,7 +1,7 @@
 ---
 title: How to install v2ray service on R7800
 date: 2019-03-22 10:22:30
-tags: [科学上网] [router] 
+tags: [科学上网] 
 ---
 
 # 如何在netgear R7800上面安装v2ray服务
