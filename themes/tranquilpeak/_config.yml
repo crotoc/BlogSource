@@ -59,37 +59,37 @@ sidebar:
     author_links:
         github:
             title: global.github
-            url: https://github.com/
+            url: https://github.com/crotoc?tab=repositories
             icon: fab fa-github
-        stack_overflow:
-            title: global.stack_overflow
-            url: http://stackoverflow.com/users
-            icon: fab fa-stack-overflow
-        twitter:
-            title: global.twitter
-            url: https://twitter.com/
-            icon: fab fa-twitter
-        facebook:
-            title: global.facebook
-            url: https://facebook.com/
-            icon: fab fa-facebook
-        google_plus:
-            title: global.google_plus
-            url: https://plus.google.com/
-            icon: fab fa-google-plus
-        linked_in:
-            title: global.linkedin
-            url: https://www.linkedin.com/profile/
-            icon: fab fa-linkedin
+#        stack_overflow:
+#            title: global.stack_overflow
+#            url: http://stackoverflow.com/users
+#            icon: fab fa-stack-overflow
+#        twitter:
+#            title: global.twitter
+#            url: https://twitter.com/crnormal
+#            icon: fab fa-twitter
+#        facebook:
+#            title: global.facebook
+#            url: https://facebook.com/
+#            icon: fab fa-facebook
+#        google_plus:
+#            title: global.google_plus
+#            url: https://plus.google.com/
+#            icon: fab fa-google-plus
+#        linked_in:
+#            title: global.linkedin
+#            url: https://www.linkedin.com/profile/
+#            icon: fab fa-linkedin
         mail:
             title: global.mail
-            url: mailto
+            url: mailto:crotoc@gmail.com
             icon: fa fa-envelope
-    rss:
-        rss:
-            title: global.rss
-            url: /atom.xml
-            icon: fa fa-rss
+#    rss:
+#        rss:
+#            title: global.rss
+#            url: /atom.xml
+#            icon: fa fa-rss
 
 
 # --------------------
@@ -117,15 +117,15 @@ header:
 
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
-    email:
-    location:
+    email: crotoc@gmail.com
+    location: Nashville, TN, U.S.
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production)
     # or you can use an external url
     # Overwritten by your gravatar image if `gravatar_email` is filled
-    picture:
+    picture: crnormal
     # Your Twitter username without the @. E.g : `tranquilpeak`
-    twitter:
+    twitter: 
     # Your personal google plus profile id, not your blog or business page id.
     # E.g : `+JohnDoe` or `123812884128439`
     google_plus:
@@ -192,22 +192,22 @@ disqus_shortname:
 # Read https://github.com/imsun/gitment#get-started to setup Gitment
 gitment:
     # Switch
-    enable: false
+    enable: true
     # Your Github ID (Github username):
-    github_id:
+    github_id: crotoc
     # The repo to store comments:
-    repo:
+    repo: crotoc.github.io
     # Your client ID:
-    client_id:
+    client_id: 8949a42af7f682244101
     # Your client secret:
-    client_secret:
+    client_secret: 65bb20f6caaa62c4f2bfd335684056ec2f936473
 
 # -------------------
 # Integrated services
 # -------------------
 
 # Your Google analystics web property ID : UA-XXXXX-X
-google_analytics_id:
+google_analytics_id: UA-136975492-1
 # Your Baidu analystics web property ID : 9505a5af654a2478f93fd6c0ae4f687d
 baidu_analytics_id:
 # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
@@ -250,18 +250,18 @@ sharing_options:
         icon: "fab fa-google-plus"
         url: "https://plus.google.com/share?url={{post.permalink}}"
     # Asian social networks
-#    weibo:
-#        title: "Weibo"
-#        icon: "fab fa-weibo"
-#        url: "http://service.weibo.com/share/share.php?&title={{post.permalink}}"
-#    qq:
-#        title: "QQ"
-#        icon: "fab fa-qq"
-#        url: "http://connect.qq.com/widget/shareqq/index.html?url={{post.permalink}}&title={{post.title}}"
-#    qzone:
-#        title: "Qzone"
-#        icon: "fa fa-star"
-#        url: "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{post.permalink}}"
+    weibo:
+        title: "Weibo"
+        icon: "fab fa-weibo"
+        url: "http://service.weibo.com/share/share.php?&title={{post.permalink}}"
+    qq:
+        title: "QQ"
+        icon: "fab fa-qq"
+        url: "http://connect.qq.com/widget/shareqq/index.html?url={{post.permalink}}&title={{post.title}}"
+    qzone:
+        title: "Qzone"
+        icon: "fa fa-star"
+        url: "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{post.permalink}}"
 #    renren:
 #        title: "Renren"
 #        icon: "fab fa-renren"

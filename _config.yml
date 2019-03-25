@@ -76,6 +76,23 @@ pagination_dir: page
 ##theme: next
 theme: tranquilpeak
 
+# Algolia setting
+algolia:
+  appId: "MI05O8RBDD"
+  apiKey: "f4469462d3dc48c35cb5b571a9c43404"
+  adminApiKey: "2aedd8dc9ff86cf5f5180c609413989b"
+  chunkSize: 5000
+  indexName: "Blog"
+  fields:
+    - content:strip:truncate,0,500
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
+
 # Algolia Search
 algolia_search:
   enable: true
