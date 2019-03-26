@@ -2,7 +2,7 @@
 title: Unblock Youku on a openWRT Router
 date: 2018-09-14 10:18:12
 categories: '网络技术'
-tags: ['科学上网'，'openWRT']	
+tags: ['科学上网','openWRT']	
 #  tags: ['计划','建站','Hexo']
 keywords:
 - 'unblock youku'
