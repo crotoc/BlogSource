@@ -26,6 +26,10 @@ comments: true   # 评论功能是否开启
 Bugs when using the tranquilpeak hexo theme
 <!-- excerpt -->
 
+# Bugs when using the tranquilpeak hexo theme
+
+<!-- toc -->
+
 今天想将blog的主题从next 换成tranquilpeak,结果发现了很多的问题,这里记录一下:
 
 1. 因为我使用travis自动在线部署,所以主题里面的node_modules不是必须的.
