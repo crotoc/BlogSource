@@ -124,7 +124,7 @@ author:
     # or in `source/assets/images/` (production)
     # or you can use an external url
     # Overwritten by your gravatar image if `gravatar_email` is filled
-    picture: https://photos.google.com/share/AF1QipPqAgP01ZqiqP83PFg3jt0oZPKqhDBZNaLtZbF9GqbCjllKfO2WlIREudFBjA4BUw/photo/AF1QipNhoKbbXtq3uJ79Gy6Eak-jNf1HA11Pf8fUdbrt?key=d29lQUNIMHZFRC1VX1lTaGtOS2ZMNWZoX3N0WWZR
+    picture: https://www.insidescience.org/sites/default/files/sites/default/files/images/articles/top-images/2018/5_heic1808a_crop.jpg
     # Your Twitter username without the @. E.g : `tranquilpeak`
     twitter: crnormal
     # Your personal google plus profile id, not your blog or business page id.
