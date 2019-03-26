@@ -80,7 +80,7 @@ theme: tranquilpeak
 algolia:
   appId: "MI05O8RBDD"
   apiKey: "f4469462d3dc48c35cb5b571a9c43404"
-  adminApiKey: "2aedd8dc9ff86cf5f5180c609413989b"
+  adminApiKey: 
   chunkSize: 5000
   indexName: "Blog"
   fields:
