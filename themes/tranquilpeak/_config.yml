@@ -118,14 +118,15 @@ header:
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
     email: crotoc@gmail.com
+    job: Vanderbilt University
     location: Nashville, TN, U.S.
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production)
     # or you can use an external url
     # Overwritten by your gravatar image if `gravatar_email` is filled
-    picture: crnormal
+    picture: https://photos.google.com/share/AF1QipPqAgP01ZqiqP83PFg3jt0oZPKqhDBZNaLtZbF9GqbCjllKfO2WlIREudFBjA4BUw/photo/AF1QipNhoKbbXtq3uJ79Gy6Eak-jNf1HA11Pf8fUdbrt?key=d29lQUNIMHZFRC1VX1lTaGtOS2ZMNWZoX3N0WWZR
     # Your Twitter username without the @. E.g : `tranquilpeak`
-    twitter: 
+    twitter: crnormal
     # Your personal google plus profile id, not your blog or business page id.
     # E.g : `+JohnDoe` or `123812884128439`
     google_plus:
