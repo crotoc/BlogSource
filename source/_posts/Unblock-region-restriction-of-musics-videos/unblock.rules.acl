@@ -24,24 +24,24 @@
 
 [proxy_list]
 # 网易音乐
-nos.netease.com
+^nos\.netease\.com$
 
 # 华为音乐
-dnkeeper.hicloud.com
+^dnkeeper\.hicloud\.com$
 
-# QQ music: Look at webforms at wspeed.qq.com
-wnsmusic.qq.com
-wns.y.qq.com
+# QQ music: Look at webforms at wspeed.qq.com$
+^wnsmusic\.qq\.com$$
+^wns\.y\.qq\.com$
 #QQ音乐IP
 203.205.128.117
 203.205.211.78
 
 #QQ视频安卓
-vv.video.qq.com
+vv\.video\.qq\.com$
 
 #qq视频安卓TV
-vv.play.aiseet.atianqi.com
-tv.aiseet.atianqi.com
+^vv\.play\.aiseet\.atianqi\.com$
+^tv\.aiseet\.atianqi\.com$
 #有时需要用到ip
 58.251.106.180
 182.254.106.117
@@ -49,13 +49,13 @@ tv.aiseet.atianqi.com
 
 
 # qq视频桌面版
-vd.l.qq.com
-y.qq.com
-pingfore.qq.com
-pay.video.qq.com
-vip.video.qq.com
-cache.tv.qq.com
-access.video.qq.com
+^vd\.l\.qq\.com$
+^y\.qq\.com$
+^pingfore\.qq\.com$
+^pay\.video\.qq\.com$
+^vip\.video\.qq\.com$
+^cache\.tv\.qq\.com$
+^access\.video\.qq\.com$
 
 [outbound_block_list]
 #禁止访问列表
