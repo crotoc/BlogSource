@@ -116,7 +116,30 @@ WSL可以使用windows的powershell,但是对于这个终端我实在无爱,所�
 然后下载[搜狗linux最新版deb包](https://pinyin.sogou.com/linux/?r=pinyin),并且安装:
 
 	sudo dpkg -i sogouxxx.deb
+
+安装的过程之中会出现一些错误：
+
+	dpkg: dependency problems prevent configuration of sogoupinyin:
+	sogoupinyin depends on libfcitx-qt0 | fcitx-libs-qt; however:
+	Package libfcitx-qt0 is not installed.
+	Package fcitx-libs-qt is not installed.
+	sogoupinyin depends on libopencc2 | libopencc1; however:
+	Package libopencc2 is not installed.
+	Package libopencc1 is not installed.
+	sogoupinyin depends on fcitx-libs (>= 4.2.7); however:
+	Package fcitx-libs is not installed.
+	sogoupinyin depends on libqtwebkit4 (>= 2.1.0~2011week13); however:
+	Package libqtwebkit4 is not installed.
+
+这种情况下面先移除失败的安装：
+
+	sudo apt remove sogoupinyin
+
+这是依赖包出现了错误，所以这里可以根据情况安装一下的依赖包：
+
+	sudo apt-get install libopencc2 fcitx-libs libqtwebkit4 
 	
+
 如果需要输入法设置软件的界面中文,生成中文locale:
 
 	sudo locale-gen zh_CN.UTF-8
@@ -129,16 +152,32 @@ WSL可以使用windows的powershell,但是对于这个终端我实在无爱,所�
     export GTK_IM_MODULE=fcitx
     export QT_IM_MODULE=fcitx
     
-    if [ \$(ps -ax | grep dbus-daemon | wc -l) -eq 1 ]; then
-		eval 'dbus-launch > /dev/null 2>&1'
-    fi
-	
+	eval "fcitx-autostart > /dev/null 2&>1 &"
+
 
 打开fcitx设置程序:
 
 	fcitx-configtool
 
 在里面加入搜狗拼音,并且最好将全局设置中的输入法热键修改一下.重新打开wsl,愉快的使用吧
+
+## 一些可能的debug
+
+### fcitx设置中没有任何输入法
+
+在实际的安装过程之中会出现fcitx设置中完全没有任何输入法的问题，这是可以在terminal中输入
+
+	fcitx
+
+然后再打开fcitx设置。如果出现了输入法，那么可以将.bashrc中的最后一句改成：
+
+	eval "fcitx > /dev/null 2&>1 &"
+
+### sogou输入法提示框中出现乱码
+
+删除.config文件夹中的相关设置文件夹：
+
+	sudo rm -rf .config/sogou* .config/Sogou* 
 
 ## 参考
 [terminator参考](https://blog.ropnop.com/configuring-a-pretty-and-usable-terminal-emulator-for-wsl/)
