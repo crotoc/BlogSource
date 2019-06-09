@@ -208,7 +208,7 @@ v2ray比较神奇的地方在于客户端其实使用的是服务端的程序，
 
 将这些ipk包scp到路由器中：
 
-	scp  ./bin/packages/arm_cortex-a15_neon-vfpv4/base/*v2ray*.ipk root@69.245.0.87:/root/
+	scp  ./bin/packages/arm_cortex-a15_neon-vfpv4/base/*v2ray*.ipk root@192.168.1.1:/root/
 	scp ipset-lists_20181104-1_arm_cortex-a15_neon-vfpv4.ipk root@*.*.*.*:/root/
 
 ### 安装v2ray
