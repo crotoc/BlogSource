@@ -1,3 +1,30 @@
+
+title:  如何在openwrt中安装luci-v2ray
+date: 2019-06-12 16:33:05
+#  categories: 网络技术
+#  tags: ['科学上网']
+keywords:
+- 'openwrt'
+#  - '建站'
+clearReading: true  # 在文章页隐藏侧栏，以更好地阅读。
+thumbnailImage: https://www.aqniu.com/wp-content/uploads/2017/07/cybersecurity.jpg   # 首页文章列表显示的缩略图	
+thumbnailImagePosition: left   # 缩略图显示的位置，上下左右都可以
+autoThumbnailImage: true   #  开启后如果没有设置缩略图，会自动设置为图片画廊里的第一张，或者其他文章的图。
+metaAlignment: center   # 文章页图片上的文字居中显示
+coverImage: https://www.aqniu.com/wp-content/uploads/2017/07/cybersecurity.jpg  # 文章页最上面的那个大图
+coverCaption: ""   # 大图下面的小标题
+coverMeta: in   # 图片上的文字显示在图片上，或者显示在图片外面
+coverSize: full   # 大图显示的尺寸，full是全屏展示
+comments: true   # 评论功能是否开启
+---
+
+如何在openwrt中安装luci-v2ray
+<!-- excerpt -->
+
+# <!-- more -->
+
+#  如何在openwrt中安装luci-v2ray
+<!-- toc -->
 # 如何在openwrt 18.06.1中安装v2ray服务器和luci-v2ray
 
 [这个项目](https://github.com/crotoc/luci-app-v2ray)是基于coolsnowwolf/lede项目，从中间提取了相关依赖包。针对海外党做了如下的改动：
