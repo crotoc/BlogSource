@@ -27,6 +27,8 @@ comments: true  # 评论功能是否开启
 
 # 如何在netgear R7800上面安装v2ray服务
 
+!! 20190612 更新：本教程路由器作为客户端的设置部分比较复杂，涉及到直接修改luci包中的v2ray服务的脚本文件。设置的基础所涉及的luci-app-v2ray已经被从lean大的lede项目中移除了，所以有兴趣的去看我fork的分支项目[luci-apply-v2ray](https://github.com/crotoc/luci-app-v2ray)
+
 <!-- toc -->
 
 我在前面一篇博客里面写过如何安装ss的服务，由于常用的ss失效（端口被封，ss已经能够被特征识别），所以折腾了一下v2ray。这想这应该也是大势所趋吧。
